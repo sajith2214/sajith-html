@@ -1,0 +1,194 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIET</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+     <nav>
+        <center>
+        <h1>MIET INSTITUTION</h1>
+        </center>
+        <ul>
+            <li> |home |</li>
+            <li>department |</li>
+            <li>about us |</li>
+            <li>contact us|</li>
+        </ul>
+     </nav>
+    </div>
+   
+    <div class="searchbar">
+        <input placeholder="search">
+
+    </div>
+   
+    <div class="department">
+        <div class="box">
+            <img src="C:\Users\saju\Downloads\imresizer-1725191680396.jpg">
+            <a href="C:\Users\saju\Desktop\miet sajith\poly.html">
+                <p>MIET POLYTECHNIC COLLEGE</p>
+            </a>
+        </div>  
+        <div class="box">
+            <img src="C:\Users\saju\Downloads\imresizer-1725192043152.jpg">
+            <a href="C:\Users\saju\Desktop\miet sajith\engineering.html">
+                <p>MIET ENGINEERING COLLEGE</p>
+             </a>
+        </div> 
+        <div class="box">
+            <img src=C:\Users\saju\Downloads\imresizer-1725192109369.jpg>
+            <a href="C:\Users\saju\Desktop\miet sajith\arts.html">
+            <p>MIET ARTS AND SCIENCE COLLEGE</p>
+            </a>
+        </div>  
+
+    </div>
+   
+    <div class="about">
+        <h1 style="text-align: center;"> ABOUT THE INSTITUTE</h1>
+        <p>The M.I.E.T. Society, founded by Er. A. Mohamed Yunus during the year 1984, offers a high quality holistic education in an underdeveloped rural and semi-urban region of Tiruchirappalli, Tamil Nadu. The society’s members include leading Industrialists, Educationists and Philanthropists.
+
+            M.I.E.T. Engineering College was established by the Mohamed Institute of Education & Technology Society, Tiruchirappalli in the year 1998 with an objective to promote the cause of higher education. The College is affiliated to Anna University, Chennai. It is recognized as a Muslim Minority Institution.
+            
+            Our Management extends its fullest support in building the institution as a centre of excellence with technically superior, ethically strong and competent engineers. The serene campus vibrant with aesthetic bliss in an exhilarating convenient location, well connected by road, rail and air is easily accessible.</p>
+    </div>
+   
+    <div class="contact">
+        <h4>Contact</h4>
+        <p>0431-2660302</p>
+        <p>admissions@miet.edu</p>
+        <p style="margin-top: 30px;font-size: 10px;">The Research and Development Cell provides ample opportunity and scope for research with abundant resources. Various Club activities are conducted to encourage, motivate and inspire students from diverse culture to harness the talent through their perseverance. Excellent Play grounds, Indoor games and Gym facilities pioneer triumphant champions in continuity in the field of sports. The College Hostel is a home away from home which provides comfortable stay with all amenities. Industry-Institute interaction and real-time projects nurture and craft the budding engineers to bloom and flourish in the field with the prowess guidance in the campus.</p>
+
+    </div>
+</body>
+</html>
+
+#CSS:
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(26, 97, 189);
+    color: white;
+    padding: 15px;;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left:75% ;
+}
+li{
+    color:black;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+
+}
+input{
+    width: 60%;
+    padding: 15px;;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width:220pX;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.department{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.contact{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+POLY:
+<CENTER>
+<h1>MIET POLYTECHNIC COLLEGE</h1>
+</CENTER>
+<h1>COURSES</h1>
+<ul>
+    <li>SCIENCE AND HUMANITIES</li>
+    <LI>CIVIL ENGINEERING</LI>
+    <LI>MECHANICAL ENGINEERING</LI>
+    <LI>AUTOMOBILE ENGINEERING</LI>
+    <LI>ELECTRICAL AND ELECTRONIC ENGINEERING</LI>
+</ul>
+<center>
+    <h2> FOR MORE DETAILS CLICK BELOW</h2>
+    <a href="https://mietpoly.org/">
+    <h3>miet.poly</h3>
+    </a>
+</center>
+
+ENGINEERING:
+
+<center>
+<h1>MIET ENGINEERING COLLEGE</h1>
+</center>
+<h1>COURSES</h1>
+<ul>
+<li>COMPUTER SCIENCE AND ENGINEERING</li>
+<LI>MECHANICAL ENGINEERING</LI>
+<LI>CIVIL ENGINEERING</LI>
+<LI>ELECTRICAL AND ELECTRONI ENGINEERING</LI>
+<LI>ELECTRICAL AND COMMUNICATION ENGINEERING</LI>
+
+</ul>
+<center>
+    <h2> FOR MORE DETAILS CLICK BELOW</h2>
+    <a href="https://miet.edu/">
+    <h3>miet.engineering</h3>
+    </a>
+</center>
+
+
+ARTS:
+
+<center>
+    <h1>MIET ARTS AND SCIENCE COLLEGE</h1>
+</center>
+<H1>COURSES</H1>
+<UL>
+    <LI>B.SC COMPUTER SCIENCE</LI>
+    <LI>B.SC MICRO BIOLOGY</LI>
+    <LI>B.COM</LI>
+    <LI>B.SC BIO TECHNOLOGY</LI>
+    <LI>B.A TAMIL</LI>
+</UL>
+<center>
+    <h2> FOR MORE DETAILS CLICK BELOW</h2>
+    <a href="https://mietarts.org/">
+    <h3>miet.arts</h3>
+    </a>
+</center>
